@@ -1,0 +1,7 @@
+Calibrate the rain meter sensor, check how much water is needed in order to overflow the mechanism.
+In order to get a accurate reading, make at least 10 measurements. 
+
+divide the value im ml by area of the  funnel in cm^2.
+
+stare - 11.1 ml - 0,2775
+nowe - 12.5 ml - 0,3125
