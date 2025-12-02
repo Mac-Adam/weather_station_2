@@ -3,15 +3,15 @@
 
 // set to 1 if you are using encoder based wind direction meter
 // set to 0 if you are using magnetometer based wind direction meter
-#define ENCODERWIND 0
+#define ENCODERWIND 1
 
-#define HEATER 0
+#define HEATER 1
 
 // debug mode - faster readings, outputs to Serial
 #define DEBUG 1
 
 //Pins 27 new, 26 old
-#define RAINMETERPIN 26
+#define RAINMETERPIN 27
 #define WINDMETERPIN 25
 
 #if HEATER

@@ -5,3 +5,4 @@ divide the value im ml by area of the  funnel in cm^2.
 
 stare - 11.1 ml - 0,2775
 nowe - 12.5 ml - 0,3125
+nowsze - 6 ml - 0,15
