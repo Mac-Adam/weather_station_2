@@ -12,3 +12,22 @@ The stations has following functionality:
 - Custom wind speed meter
 - Custom wind direction meter
 - Custom rain meter with heating to measure snow
+
+## Building And Running
+
+Open the Weather_station project in arudino studio and program your ESP32.
+Before programing, create a secrets.ino file:
+
+```
+
+#ifndef SECRETS
+
+#define WIFINAME "Name of your WiFi"
+#define PASSWORD "Your WiFi Password"
+#define ID Unique ID
+#define SERVERNAME "Url for your server"
+#else
+
+#define SECRETS
+#endif
+```

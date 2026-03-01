@@ -5,10 +5,10 @@
 // set to 0 if you are using magnetometer based wind direction meter
 #define ENCODERWIND 1
 
-#define HEATER 1
+#define HEATER 0
 
 // debug mode - faster readings, outputs to Serial
-#define DEBUG 1
+#define DEBUG 0
 
 //Pins 27 new, 26 old
 #define RAINMETERPIN 27
@@ -41,7 +41,7 @@
 #define SECONDSPERHOUR 3600.0
 #define PI 3.1415
 
-IPAddress local_IP(192, 168, 1, 166);
+IPAddress local_IP(192, 168, 1, 167);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
 IPAddress primaryDNS(192, 168, 1, 1);

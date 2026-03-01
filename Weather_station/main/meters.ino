@@ -25,7 +25,7 @@
 #define ANGLECOUNT 400
 
 #if ENCODERWIND
-  #define DIRANGLEOFSSET 220 // angle value at 0
+  #define DIRANGLEOFSSET 235 // angle value at 0
 
 #else 
   //compass calibration
@@ -44,7 +44,7 @@
 #define TICKSPERREVOLUTION 4
 
 //Rain meter Calibration 
-#define MMPEROVERFLOW 0.3125
+#define MMPEROVERFLOW 0.15
 
 
 struct WindSpeedMeter{
